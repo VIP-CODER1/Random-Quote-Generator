@@ -2,6 +2,8 @@
 
 A simple JavaScript-based Random Quote Generator that displays inspiring quotes every time a user interacts with it.
 
+![image](https://github.com/user-attachments/assets/41adda65-b720-40ec-b39f-6495b9115b64)
+
 📌 **Features**
 
 Displays a random quote from a predefined list.
@@ -11,6 +13,8 @@ Refresh or button click generates a new quote.
 Simple and lightweight, built with JavaScript.
 
 Can be expanded to include API integration for dynamic quotes.
+
+
 
 🚀 **How It Works**
 
@@ -42,7 +46,7 @@ JavaScript
 
 Clone this repository:
 
-git clone https://github.com/yourusername/random-quote-generator.git
+**git clone** https://github.com/VIP-CODER1/Random-Quote-Generator
 
 Open the index.html file in a browser.
 

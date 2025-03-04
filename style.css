@@ -1,28 +1,72 @@
-body,h1{
+
+body {
     display: flex;
     justify-content: center;
-    
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
 
-#root{
+
+#root {
     background-color: rgb(74, 241, 241);
-    box-shadow: 10px 10px 10px 12px rgb(230, 199, 131);
+    box-shadow: 55px 55px 55px rgba(245, 6, 6, 0.8);
     border: 2px solid rgb(212, 105, 198);
     border-radius: 20px;
-    margin-top: 10%;
-   
+    padding: 20px;
+    max-width: 80%;
+    width: 700px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px;
 }
 
-#one{
+
+#one {
     display: flex;
     justify-content: center;
     font-weight: 900;
-    color: rgb(255, 10, 10);
-    font-size: large;
-    
-}
-#emoji{
-    display: flex;
-    justify-content: center;  
+    color: rgb(221, 52, 52);
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-top: 5px;
 }
 
+#emoji {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: 5px;
+}
+
+
+@media (max-width: 768px) {
+    #root {
+        width: 90%;
+        padding: 15px;
+    }
+    #one {
+        font-size: 1.2rem;
+        margin-top: 3px; 
+    }
+    #emoji {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #root {
+        width: 95%;
+        padding: 10px;
+    }
+    #one {
+        font-size: 1rem;
+        margin-top: 2px; 
+    }
+    #emoji {
+        font-size: 1.5rem;
+    }
+}

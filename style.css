@@ -1,0 +1,28 @@
+body,h1{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#root{
+    background-color: rgb(74, 241, 241);
+    box-shadow: 10px 10px 10px 12px rgb(230, 199, 131);
+    border: 2px solid rgb(212, 105, 198);
+    border-radius: 20px;
+    margin-top: 10%;
+   
+}
+
+#one{
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    color: rgb(255, 10, 10);
+    font-size: large;
+    
+}
+#emoji{
+    display: flex;
+    justify-content: center;  
+}
+

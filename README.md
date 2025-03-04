@@ -2,7 +2,11 @@
 
 A simple JavaScript-based Random Quote Generator that displays inspiring quotes every time a user interacts with it.
 
-![image](https://github.com/user-attachments/assets/41adda65-b720-40ec-b39f-6495b9115b64)
+![image](https://github.com/user-attachments/assets/84af2e88-8f52-429d-8b9d-edc397a332fa)
+![Screenshot 2025-03-04 225231](https://github.com/user-attachments/assets/2cca3ecf-343b-44bd-bc7f-8b779398b6d4)
+
+
+
 
 📌 **Features**
 
